@@ -1,4 +1,4 @@
-# share tentang cara routing static pada mikrotik
+# ROUTING STATIC MIKROTIK
 ### A. Pengertian
 
 Routing static adalah jenis routing yang dilakukan admin/pengelola jaringan untuk mengkonfigurasi informasi tentang jaringan yang dituju secara manual. Ciri-ciri routing statis adalah sebagai berikut:
@@ -30,10 +30,9 @@ Routing static adalah jenis routing yang dilakukan admin/pengelola jaringan untu
 3. Admisnistrasinya cukup rumit dibanding routing dinamis, terlebih jika banyak router yang harus dikonfigurasi secara manual
 4. Rentan terhadap kesalahan saat entri data routing statis yang dilakukan secara manual.
 
-
 ## B. Latar Belakang
 
-        Banyak perusahaan yang besar yang membutuhkan jaringan, dan dalam perusaahan tersebut kadang kala tidak hanya terdiri dari satu jaringan karena itu untuk meneruskan data dari jaringan satu k jaringan yang lain kita memerlukan yang namanya routing, dalam routing cara paling simpel dan bisa digunakan agar kita bisa memasukan network secara manual adalah routing static
+Banyak perusahaan yang besar yang membutuhkan jaringan, dan dalam perusaahan tersebut kadang kala tidak hanya terdiri dari satu jaringan karena itu untuk meneruskan data dari jaringan satu k jaringan yang lain kita memerlukan yang namanya routing, dalam routing cara paling simpel dan bisa digunakan agar kita bisa memasukan network secara manual adalah routing static
 
 ## C. Maksud dan Tujuan
 
