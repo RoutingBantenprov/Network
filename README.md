@@ -109,11 +109,9 @@ seperti tadi kita tambahkan IP sesuai dengan toplogi, untuk ether 1 kita buat ag
 
 ### F. Hasil Kegiatan
 
-        Hasilnya kita berhasil melakukan ping dari mikrotik 4 ke mikrotik 1 atau sebaliknya, walau pun kdu mikrotik itu memiliki IP dengan jaringan yang berbeda dan harus melewati beberapa nexhop tapi tetap bisa berkomunikasi setelah di routing
-
-
+Hasilnya kita berhasil melakukan ping dari mikrotik 4 ke mikrotik 1 atau sebaliknya, walau pun kdu mikrotik itu memiliki IP dengan jaringan yang berbeda dan harus melewati beberapa nexhop tapi tetap bisa berkomunikasi setelah di routing
 
 ### G. Kesimpulan
 
-         Kesimpulanya untuk melakukan routing static ini pada mikrotik pertama kita ibaratkan mikrotik paling atas sehingga kita melakukan routing static dengan cara memasukan network yang bebeda satu per satu, sedangkan pada mikrotik 4 kita untuk merouting kita tinggal memasukan network 0.0.0.0/0, disitu bisa dimpulkan untuk menuju ke bawah kita masukan satu per satu network nya sedangkan untuk ke atas kita masukan 0.0.0.0/0
+Kesimpulanya untuk melakukan routing static ini pada mikrotik pertama kita ibaratkan mikrotik paling atas sehingga kita melakukan routing static dengan cara memasukan network yang bebeda satu per satu, sedangkan pada mikrotik 4 kita untuk merouting kita tinggal memasukan network 0.0.0.0/0, disitu bisa dimpulkan untuk menuju ke bawah kita masukan satu per satu network nya sedangkan untuk ke atas kita masukan 0.0.0.0/0
 
