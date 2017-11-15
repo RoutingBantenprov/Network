@@ -72,52 +72,48 @@ Routing static adalah jenis routing yang dilakukan admin/pengelola jaringan untu
 seperti tadi kita tambahkan IP sesuai dengan toplogi, untuk ether 1 kita buat agar satu jaringan dengan mikrotik 1 tadi :
 
 11. Setelah itu kita tambahkan lagi untuk ether 2, setting IP sesuai dengan topologi di atas :
-![](https://4.bp.blogspot.com/-IOAI-zQftJY/V9GEtbWD_xI/AAAAAAAAB38/T0yaXHp_rdUletA4dYi8DPfygUKOmPNiQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-13-35.png)
+![](https://4.bp.blogspot.com/-Lhs3J94kNY8/V9GE_fxoBWI/AAAAAAAAB4A/vVYAIlq390gRQmFV9oGpm6oxxCjDxafnwCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-14-09.png)
 12. Dan hasilnya setting IP akan menunjukan seperti berikut :
+![](https://2.bp.blogspot.com/-97tN71Rhk3o/V9GFMoZjlOI/AAAAAAAAB4E/Ed9-Vvpo1Y0alj-NOSfaQ7cn50fnNBi8ACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-14-28.png)
+13. jika IP sudah disetting seperti pada mikrotik 1 tadi kita juga konfigurasi routing static nya pada mikrotik 2 dengan menambahkan network 192.168.3.0 lalu gatewaynya 192.168.2.3
+![](https://4.bp.blogspot.com/-1dXndXy7Mgc/V9GGBPYTHkI/AAAAAAAAB4I/SD8acOJw3C8pC8Uw8qOWR1Mq55mA9EGmACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-03-55.png)
+14. Setelah untuk routing ke mikroik 1 kita gunakan network 0.0.0.0 dengan gateway 192.168.1.1
+![](https://4.bp.blogspot.com/-QJz35bcAokA/V9GHEBCXVxI/AAAAAAAAB4U/pOPa0KiGbr0tm79wUEi5SCE0mExPR7VpACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-02-56.png)
+15. dan hasil dari routing static yang kita tambahkan tadi akan seperti berikut :
+![](https://2.bp.blogspot.com/-kOuZPILmqHg/V9GHRONEhVI/AAAAAAAAB4Y/gPomPmSe2aUByXCidfm-sUzBC-iSSfRDQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-04-54.png)
+16. Jika pada mikrotik 2 konfigurasi sudah selesai sekarnga kita masuk ke Mikrotik 3
+17. Seperti pada mikrotik sebelumnya pertama kita konfigurasi IP nya
+18. Pada ether 1 kita setting agar satu jaringan denan ether 2 di mikrotik 2 sesuai dengan topologi di atas tadi :
+![](https://1.bp.blogspot.com/-N2MK9mcj-gU/V9GIBA_KLRI/AAAAAAAAB4k/BsS0jA7DlT0sDLA9ERX3YteamkiknZnSACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-15-52.png)
+19. Lalu tambahkan lagi untuk ether 2 seperti topologi di atas tadi :
+![](https://1.bp.blogspot.com/-2iTjkJzE320/V9GIaQR5vbI/AAAAAAAAB4o/oFYg_7rC2V0lZnb8lBrz3VOt8lAql4YIwCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-16-21.png)
+20. dan hasilnya dari konfigurasi IP tadi akan seperti berikut :
+![](https://1.bp.blogspot.com/-CBn5cIOetSM/V9GI40AhA3I/AAAAAAAAB40/LuRdXfUULzs7yz5WUZMQIZNV--iQcltgACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-16-31.png)
+21. setelah pada konfigurasi IP selesai sekarang kita konfigurasi routing staticnya, dengan hanya menambahkan network 0.0.0.0/0 dan gateway 192.168.2.3
+![](https://2.bp.blogspot.com/-GIPwNzpXCGE/V9GJdPkqTAI/AAAAAAAAB44/ed2QS0czkIQiy-IODfnMPzMgzoPsdFRKACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-11-13.png)
+22. Dan nanti hasilnya akan seperti beriikut :
+![](https://4.bp.blogspot.com/-e07Tc_-NjEM/V9GJtUN8C1I/AAAAAAAAB48/SbIOVznbQk4uWplUwrYhRd87J56JEKXMwCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-11-22.png)
+23. Karena konfigurasi IP dan routing pada mikrotik 3 sudah selesai sekarng kita konfigurasi pada mikrotik 4
+24. seperti pada mikrotik yang lain lain pertama kita konfigurasi IPnya terlebih dahulu seperti pada topologi yang di buat tadi :
+![](https://2.bp.blogspot.com/-ZQ_TsLpXfj0/V9GK-k3ux-I/AAAAAAAAB5I/czO7ri9sbB0cJ0kmKP_gqlZLa1pP0QGUQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-13-13.png)
+25. Dan setelah di OK hasilnya akan seperti berikut :
+![](https://4.bp.blogspot.com/-_N0Me1IeYZI/V9GLP2nh6sI/AAAAAAAAB5M/AG34JyRndIo8Ivc2BWDf7hz88hl494oRACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-13-22.png)
+26. Setelah itu kita lakukan routing staticnya, dengan hanya menambahkan 0.0.0.0/0 dan gateway 192.168.3.3
+![](https://3.bp.blogspot.com/-bwd4QVGgY5o/V9GL4u0t1vI/AAAAAAAAB5Q/eUOM9VjKkME0M-Rma8fx20md1ruaJVNqgCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-13-54.png)
+27. Setelah itu hasil dari yang ditambahakan tadi akan seperti berikut :
+![](https://2.bp.blogspot.com/-suQoBhBW20c/V9GM80JRARI/AAAAAAAAB5Y/bclrj-CEzqIOu2zboDP05DekGjzGZ2SkACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-38-11.png)
+28. sekarang konfigurasi routing static pada 4 miktotik telah selesai, untuk tes kita bisa melakukan ping dari mikroti 4 ke mikrotik 1 atau sebaliknya :
+![](https://4.bp.blogspot.com/-UUmYSF0yIR0/V9GOIdD2RbI/AAAAAAAAB5k/oGxbQhLLqFUb-DtaPzA6_uynPSFuStx2gCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-14-25.png)
 
-jika IP sudah disetting seperti pada mikrotik 1 tadi kita juga konfigurasi routing static nya pada mikrotik 2 dengan menambahkan network 192.168.3.0 lalu gatewaynya 192.168.2.3
+![](https://4.bp.blogspot.com/-3ey_eYwpAn8/V9GOIy78kpI/AAAAAAAAB5o/S3oKbxKK8gYG8AbylMmjiZ_KRuh2V4shQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B14-24-20.png)
 
-Setelah untuk routing ke mikroik 1 kita gunakan network 0.0.0.0 dengan gateway 192.168.1.1
-
-dan hasil dari routing static yang kita tambahkan tadi akan seperti berikut :
-
-Jika pada mikrotik 2 konfigurasi sudah selesai sekarnga kita masuk ke Mikrotik 3
-Seperti pada mikrotik sebelumnya pertama kita konfigurasi IP nya
-Pada ether 1 kita setting agar satu jaringan denan ether 2 di mikrotik 2 sesuai dengan topologi di atas tadi :
- 
-
- Lalu tambahkan lagi untuk ether 2 seperti topologi di atas tadi :
-
-dan hasilnya dari konfigurasi IP tadi akan seperti berikut :
-
-setelah pada konfigurasi IP selesai sekarang kita konfigurasi routing staticnya, dengan hanya menambahkan network 0.0.0.0/0 dan gateway 192.168.2.3
-
-Dan nanti hasilnya akan seperti beriikut :
-
-Karena konfigurasi IP dan routing pada mikrotik 3 sudah selesai sekarng kita konfigurasi pada mikrotik 4
-seperti pada mikrotik yang lain lain pertama kita konfigurasi IPnya terlebih dahulu seperti pada topologi yang di buat tadi :
-
-Dan setelah di OK hasilnya akan seperti berikut :
- 
-
-Setelah itu kita lakukan routing staticnya, dengan hanya menambahkan 0.0.0.0/0 dan gateway 192.168.3.3
-
-Setelah itu hasil dari yang ditambahakan tadi akan seperti berikut :
-
-sekarang konfigurasi routing static pada 4 miktotik telah selesai, untuk tes kita bisa melakukan ping dari mikroti 4 ke mikrotik 1 atau sebaliknya :
-
-
-
-
-
-
-G. Hasil Kegiatan
+### F. Hasil Kegiatan
 
         Hasilnya kita berhasil melakukan ping dari mikrotik 4 ke mikrotik 1 atau sebaliknya, walau pun kdu mikrotik itu memiliki IP dengan jaringan yang berbeda dan harus melewati beberapa nexhop tapi tetap bisa berkomunikasi setelah di routing
 
 
 
-H. Kesimpulan
+### G. Kesimpulan
 
          Kesimpulanya untuk melakukan routing static ini pada mikrotik pertama kita ibaratkan mikrotik paling atas sehingga kita melakukan routing static dengan cara memasukan network yang bebeda satu per satu, sedangkan pada mikrotik 4 kita untuk merouting kita tinggal memasukan network 0.0.0.0/0, disitu bisa dimpulkan untuk menuju ke bawah kita masukan satu per satu network nya sedangkan untuk ke atas kita masukan 0.0.0.0/0
 
