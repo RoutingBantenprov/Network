@@ -1,11 +1,11 @@
-share tentang cara routing static pada mikrotik
+# share tentang cara routing static pada mikrotik
 ### A. Pengertian
 
 Routing static adalah jenis routing yang dilakukan admin/pengelola jaringan untuk mengkonfigurasi informasi tentang jaringan yang dituju secara manual. Ciri-ciri routing statis adalah sebagai berikut:
 
-jalur spesifik ditentukan oleh admin jaringan
-pengisian tabel routing dilakukan secara manual oleh admin jaringan
-biasanya digunakan untuk jaringan berskala kecil
+### 1. jalur spesifik ditentukan oleh admin jaringan
+### 2. pengisian tabel routing dilakukan secara manual oleh admin jaringan
+### 3. biasanya digunakan untuk jaringan berskala kecil
 
 ### Cara kerja routing statis ada 3 bagian yaitu:
 1. Konfigurasi router yang dilakukan oleh admin jaringan
@@ -25,10 +25,10 @@ biasanya digunakan untuk jaringan berskala kecil
 4. Routing Statis kebal dari segala usaha hacker untuk men-spoof dengan tujuan membajak traffik
 
 ### Kerugian Menggunakan routing static
-Administrator jaringan harus mengetahui semua informasi dari masing masing router yang digunakan
-Hanya dapat digunakan untuk jaringan berskala kecil
-Admisnistrasinya cukup rumit dibanding routing dinamis, terlebih jika banyak router yang harus dikonfigurasi secara manual
-Rentan terhadap kesalahan saat entri data routing statis yang dilakukan secara manual.
+1. Administrator jaringan harus mengetahui semua informasi dari masing masing router yang digunakan
+2. Hanya dapat digunakan untuk jaringan berskala kecil
+3. Admisnistrasinya cukup rumit dibanding routing dinamis, terlebih jika banyak router yang harus dikonfigurasi secara manual
+4. Rentan terhadap kesalahan saat entri data routing statis yang dilakukan secara manual.
 
 
 ## B. Latar Belakang
@@ -36,25 +36,23 @@ Rentan terhadap kesalahan saat entri data routing statis yang dilakukan secara m
         Banyak perusahaan yang besar yang membutuhkan jaringan, dan dalam perusaahan tersebut kadang kala tidak hanya terdiri dari satu jaringan karena itu untuk meneruskan data dari jaringan satu k jaringan yang lain kita memerlukan yang namanya routing, dalam routing cara paling simpel dan bisa digunakan agar kita bisa memasukan network secara manual adalah routing static
 
 ## C. Maksud dan Tujuan
-dapat melakukan routing static menggunakan mikrotik
-dapat menerapkan fungsi routing pada sebuah jaringan
-dapat mengetahui cara kerja routing static
 
-## D. Jangka Waktu
-Sekitar 3 jam
+1. dapat melakukan routing static menggunakan mikrotik
+2. dapat menerapkan fungsi routing pada sebuah jaringan
+3. dapat mengetahui cara kerja routing static
 
-## E. Alat dan Bahan
+## C. Alat Pendukung
 1. 4 mikrotik 
 2. 3 kabel LAN
 3. LAPTOP dengan sistem operasi bebas 
 4. Aplikasi winbox
 
-## F. Tahapan Pelaksanaan Kegiatan
-sambungkan semua mikrotik menjadi seperti topologi berikut :
-![diagram](https://1.bp.blogspot.com/-R5zLF7qE_qg/V9GAmo26xdI/AAAAAAAAB3E/bjqKCeSfIs0oHPoWg9qNZsI2na51rmRDACLcB/s1600/Diagram2.png)   
-### Pertama kita sambungkan pada mikrotik pertama setelah itu kita konfigurasi mikrotik menggunakan winbox
+## D. Tahapan 
+1. sambungkan semua mikrotik menjadi seperti topologi berikut :
+   ![diagram](https://1.bp.blogspot.com/-R5zLF7qE_qg/V9GAmo26xdI/AAAAAAAAB3E/bjqKCeSfIs0oHPoWg9qNZsI2na51rmRDACLcB/s1600/Diagram2.png)   
+2. Pertama kita sambungkan pada mikrotik pertama setelah itu kita konfigurasi mikrotik menggunakan winbox
 
-### kita setting IP pada mikrotik pertama dengan masuk ke menu IP setelah itu address :
+3. kita setting IP pada mikrotik pertama dengan masuk ke menu IP setelah itu address :
 
 setelah itu klik ikon plus (+) lalu tulis IP sesuai dengan topologi yang sudah di buat di atas :
 ![](https://3.bp.blogspot.com/-Z8j8mzYQEqc/V9GBmHBcZfI/AAAAAAAAB3Q/5dNRLoT71FAsGEzvRyVn3O_YqBLnOOJXQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-46-34.png)
