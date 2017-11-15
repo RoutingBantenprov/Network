@@ -53,10 +53,10 @@ Routing static adalah jenis routing yang dilakukan admin/pengelola jaringan untu
 2. Pertama kita sambungkan pada mikrotik pertama setelah itu kita konfigurasi mikrotik menggunakan winbox
 
 3. kita setting IP pada mikrotik pertama dengan masuk ke menu IP setelah itu address :
-
-setelah itu klik ikon plus (+) lalu tulis IP sesuai dengan topologi yang sudah di buat di atas :
 ![](https://3.bp.blogspot.com/-Z8j8mzYQEqc/V9GBmHBcZfI/AAAAAAAAB3Q/5dNRLoT71FAsGEzvRyVn3O_YqBLnOOJXQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-46-34.png)
-dan hasil nya akan seperti ini jika IP berhasil ditambahkan :
+4. setelah itu klik ikon plus (+) lalu tulis IP sesuai dengan topologi yang sudah di buat di atas :
+
+5. dan hasil nya akan seperti ini jika IP berhasil ditambahkan :
 
 ![](https://4.bp.blogspot.com/-rh7HR5myo4s/V9GCAGnm6nI/AAAAAAAAB3U/mdggy6feRWkoQ5GoNri1NPRVsmAT5J0tgCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-11-28.png)
 
