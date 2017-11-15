@@ -60,22 +60,20 @@ Routing static adalah jenis routing yang dilakukan admin/pengelola jaringan untu
 
 ![](https://4.bp.blogspot.com/-rh7HR5myo4s/V9GCAGnm6nI/AAAAAAAAB3U/mdggy6feRWkoQ5GoNri1NPRVsmAT5J0tgCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-11-28.png)
 
-Setelah itu untuk melakukan routing static kita masuk ke menu IP >> routes 
-
+6. Setelah itu untuk melakukan routing static kita masuk ke menu IP >> routes 
 ![](https://1.bp.blogspot.com/-HXWEuqqD6hg/V9GDAMts8qI/AAAAAAAAB3k/2_BqQpp4Gqc0PPdem6dm6TRb3CHRAj5zQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-50-01.png)
- 
-lalu kita klik ikon plus (+), lalu kita tambahkan IP network yang mau di routing dan gateway nya, sesuai dengan topologi di atas kita tambahkan network 192.168.2.0 dengan gateway 192.168.1.2 :
+7. lalu kita klik ikon plus (+), lalu kita tambahkan IP network yang mau di routing dan gateway nya, sesuai dengan topologi di atas kita tambahkan network 192.168.2.0 dengan gateway 192.168.1.2 :
+![](https://4.bp.blogspot.com/-Fgf4yEZ3UXA/V9GDngJqC0I/AAAAAAAAB3s/MqU7rs8bphwuLjULrw-ihssLyENZkjubQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-59-06.png)
+8. Lalu kita tambahkan lagi untuk menambahkan network 192.168.3.0, untuk gateway tetap menggunakan 192.168.1.2
 
-Lalu kita tambahkan lagi untuk menambahkan network 192.168.3.0, untuk gateway tetap menggunakan 192.168.1.2
-
-Dan hasilnya akan seperti ini setalah kita tambahkan dua network tadi ke IP >> route
-
-Jika pada mikrotik sudah di setting IP sekaligus routing staticnya. sekarang kita masuk ke mikrotik 2
+9. Dan hasilnya akan seperti ini setalah kita tambahkan dua network tadi ke IP >> route
+![](https://3.bp.blogspot.com/-3LGo3Ik_D8k/V9GEL6hhicI/AAAAAAAAB30/M5Jw3dsU4doVsWIYDVu0L47YrJcx0m5kACLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-59-58.png)
+10. Jika pada mikrotik sudah di setting IP sekaligus routing staticnya. sekarang kita masuk ke mikrotik 2
 seperti tadi kita tambahkan IP sesuai dengan toplogi, untuk ether 1 kita buat agar satu jaringan dengan mikrotik 1 tadi :
 
-Setelah itu kita tambahkan lagi untuk ether 2, setting IP sesuai dengan topologi di atas :
-
-Dan hasilnya setting IP akan menunjukan seperti berikut :
+11. Setelah itu kita tambahkan lagi untuk ether 2, setting IP sesuai dengan topologi di atas :
+![](https://4.bp.blogspot.com/-IOAI-zQftJY/V9GEtbWD_xI/AAAAAAAAB38/T0yaXHp_rdUletA4dYi8DPfygUKOmPNiQCLcB/s1600/Screenshot%2Bfrom%2B2016-09-08%2B13-13-35.png)
+12. Dan hasilnya setting IP akan menunjukan seperti berikut :
 
 jika IP sudah disetting seperti pada mikrotik 1 tadi kita juga konfigurasi routing static nya pada mikrotik 2 dengan menambahkan network 192.168.3.0 lalu gatewaynya 192.168.2.3
 
